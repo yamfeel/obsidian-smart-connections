@@ -55,6 +55,11 @@ const SMART_TRANSLATION = {
     "prompt": "Sulla base degli appunti",
     "initial_message": "Ciao, sono ChatGPT e ho accesso ai tuoi appunti tramite Smart Connections. Fatemi una domanda sui vostri appunti e cercherò di rispondervi.",
   },
+  "zh": {
+    "pronous": ["我的", "我", "我们的", "我们"],
+    "prompt": "根据您的笔记",
+    "initial_message": "您好，我是通过连接访问您笔记的 ChatGPT。请问与笔记有关的问题，我会尽量回答。"
+  }
 }
 
 class SmartConnectionsPlugin extends Obsidian.Plugin {
